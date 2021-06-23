@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <sf-demo :msg="'测试'" :isShow="true"></sf-demo>
+    111111111
+    <sf-demo :msg="'测试插件'" :isShow="true"></sf-demo>
   </div>
 </template>
 
@@ -9,7 +10,7 @@ export default {
   name: 'app',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+
     }
   }
 }

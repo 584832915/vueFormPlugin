@@ -1,6 +1,6 @@
 import sfDemo from "./demo.vue"
 const demoPlugin = {
-    install:function(Vue){
+    install:(Vue)=>{
         Vue.component("sfDemo",sfDemo)
     }
 }
