@@ -1,11 +1,12 @@
 {
   "name": "vue-sfform-plugin",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name demo --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -22,7 +23,7 @@
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
   },
-  "main": "babel.config.js",
+  "main": "lib/demo.umd.min.js",
   "keywords": [
     "vue",
     "formPlugin"

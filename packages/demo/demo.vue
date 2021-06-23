@@ -1,12 +1,12 @@
 <template>
-  <div v-show="isShow" class="demo">
+  <div class="demo">
     {{msg}}
   </div>
 </template>
 
 <script>
 export default {
-  name: "sfDemo",
+  name: "sf-demo",
   props: {
     msg: {
       default: "",
