@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    111111111
-    <sf-demo :msg="'测试插件'" :isShow="true"></sf-demo>
+    <sf-demo :msg="'测试插件111111'" :isShow="true"></sf-demo>
   </div>
 </template>
 
