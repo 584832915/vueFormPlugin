@@ -2,6 +2,7 @@ const path = require('path')
 
 module.exports = {
     lintOnSave: false,
+    productionSourceMap: false,
     pages: {
         index: {
             entry: 'examples/main.js',
